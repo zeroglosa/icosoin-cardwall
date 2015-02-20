@@ -1,0 +1,57 @@
+{
+    "name": "cardwall arquitetura",
+    "columns": [
+        {
+            "name": "Ready 4 Dev",
+            "min_limit": 1,
+            "max_limit": 5,
+            "tickets": [
+                {
+                    "id": 1234,
+                    "description": "Install app",
+                    "estimate": 3,
+                    "worked_hours": {
+                        "Ready 4 Dev": 7,
+                        "dev": 4
+                    },
+                    "errors":[
+                        {
+                            "message": "Dev time exceeded!"
+                        }
+                    ],
+                    "user": {
+                        "username": "name",
+                        "avatar_url": "https://s3.amazonaws.com/assembla-avatars/60c05d61/cXO81G4Omr4OoQacwqjQYw:1422115472"
+                    }
+                }
+            ],
+            "errors": [
+                {
+                    "message": "Limit exceeded!"
+                }
+            ]
+        },
+        {
+            "name": "Dev",
+            "min_limit": 1,
+            "max_limit": 5,
+            "tickets": [
+                {
+                    "id": 4879,
+                    "description": "Config app",
+                    "estimate": 6,
+                    "worked_hours": {
+                        "Ready 4 Dev": 8,
+                        "dev": 1
+                    },
+                    "errors": [],
+                    "user": {
+                        "username": "name",
+                        "avatar_url": "https://s3.amazonaws.com/assembla-avatars/60c05d61/cXO81G4Omr4OoQacwqjQYw:1422115472"
+                    }
+                }
+            ],
+            "errors": []
+        }
+    ]
+}
